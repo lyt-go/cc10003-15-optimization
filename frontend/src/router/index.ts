@@ -10,6 +10,7 @@ const Dashboard = () => import('@/views/dashboard/index.vue')
 const Delivery = () => import('@/views/delivery/index.vue')
 const Funnel = () => import('@/views/funnel/index.vue')
 const Cohort = () => import('@/views/cohort/index.vue')
+const Retention = () => import('@/views/retention/index.vue')
 const Attribution = () => import('@/views/attribution/index.vue')
 const Alertconfig = () => import('@/views/alertconfig/index.vue')
 const Reportsch = () => import('@/views/reportsch/index.vue')
@@ -33,6 +34,7 @@ const router = createRouter({
     { path: '/delivery', name: 'delivery', component: Delivery },
     { path: '/funnel', name: 'funnel', component: Funnel },
     { path: '/cohort', name: 'cohort', component: Cohort },
+    { path: '/retention', name: 'retention', component: Retention },
     { path: '/attribution', name: 'attribution', component: Attribution },
     { path: '/alertconfig', name: 'alertconfig', component: Alertconfig },
     { path: '/reportsch', name: 'reportsch', component: Reportsch },

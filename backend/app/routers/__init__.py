@@ -15,6 +15,7 @@ from app.routers import dashboard as router_dashboard
 from app.routers import delivery as router_delivery
 from app.routers import funnel as router_funnel
 from app.routers import cohort as router_cohort
+from app.routers import retention as router_retention
 from app.routers import attribution as router_attribution
 from app.routers import alertconfig as router_alertconfig
 from app.routers import reportsch as router_reportsch
@@ -25,4 +26,4 @@ from app.routers import tagmgr as router_tagmgr
 from app.routers import insight as router_insight
 from app.routers import dataval as router_dataval
 
-ROUTERS = [router_metric, router_queryboard, router_segment, router_abtest, router_analysis, router_dashboard, router_delivery, router_funnel, router_cohort, router_attribution, router_alertconfig, router_reportsch, router_dimprop, router_datadrill, router_forecast, router_tagmgr, router_insight, router_dataval]
+ROUTERS = [router_metric, router_queryboard, router_segment, router_abtest, router_analysis, router_dashboard, router_delivery, router_funnel, router_cohort, router_retention, router_attribution, router_alertconfig, router_reportsch, router_dimprop, router_datadrill, router_forecast, router_tagmgr, router_insight, router_dataval]

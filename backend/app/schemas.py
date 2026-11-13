@@ -137,6 +137,18 @@ class CohortEntry(BaseModel):
     field_6: str | None = None  # 留存阈值
     field_7: str | None = None  # 最后计算时间
 
+class RetentionPlanEntry(BaseModel):
+    """留存刷新计划明细结构。"""
+
+    field_0: str | None = None  # 计划标识
+    field_1: str | None = None  # 漏斗编号
+    field_2: str | None = None  # 漏斗版本
+    field_3: str | None = None  # 群组编号
+    field_4: str | None = None  # 划分事件
+    field_5: str | None = None  # 观察周期列表
+    field_6: str | None = None  # 覆盖版本
+    field_7: str | None = None  # 最后计算时间
+
 class AttributionEntry(BaseModel):
     """归因规则明细结构。"""
 
